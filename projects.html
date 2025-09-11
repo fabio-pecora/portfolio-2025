@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fabio Pecora — Portfolio</title>
+  <meta name="description" content="Portfolio of Fabio Pecora. Projects, passions, timeline, and contact.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="logo" href="index.html" aria-label="Fabio home">FP</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="passions.html">Passions</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+    </nav>
+  </header>
+  <main id="main">
+
+<section class="page-intro">
+  <h1>Projects</h1>
+  <p>A curated gallery with hover reveals and smooth motion.</p>
+</section>
+
+<section class="projects-grid">
+  <article class="project-card">
+    <div class="thumb"></div>
+    <div class="project-body">
+      <h3>Neurora Daily Tech</h3>
+      <p>Automated pipeline for AI voiced short tech videos with lip sync.</p>
+      <ul class="meta">
+        <li>Python</li><li>FFmpeg</li><li>SadTalker</li>
+      </ul>
+      <a href="#" class="button small">Case Study</a>
+      <a href="#" class="button ghost small">Live</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="thumb"></div>
+    <div class="project-body">
+      <h3>Instagram Growth Bot</h3>
+      <p>Multi account Selenium workflow with rate limits and tracking.</p>
+      <ul class="meta">
+        <li>Python</li><li>Selenium</li><li>SQLite</li>
+      </ul>
+      <a href="#" class="button small">Repo</a>
+      <a href="#" class="button ghost small">Demo</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="thumb"></div>
+    <div class="project-body">
+      <h3>Portfolio Engine</h3>
+      <p>Static site system with theme switch and micro interactions.</p>
+      <ul class="meta">
+        <li>HTML</li><li>CSS</li><li>JS</li>
+      </ul>
+      <a href="#" class="button small">Repo</a>
+      <a href="#" class="button ghost small">Live</a>
+    </div>
+  </article>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Fabio Pecora. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+</body>
+</html>
