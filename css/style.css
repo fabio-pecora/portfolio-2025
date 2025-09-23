@@ -434,3 +434,20 @@ body {
   .contact { grid-template-columns: 1fr; }
 }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+
+.music-info {
+  margin-top: 1rem;
+  font-family: monospace;
+  color: #ccc;
+}
+
+.music-info h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1rem;
+  color: #00ff99; /* neon accent */
+}
+
+.music-info p {
+  margin: 0 0 0.8rem;
+  font-size: 0.9rem;
+}

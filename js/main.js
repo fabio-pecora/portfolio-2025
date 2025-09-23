@@ -76,7 +76,7 @@
     "$ craft",
     "building websites that are elegant, secure, and responsive",
     "$ skills",
-    "html css javascript typescript react node.js java spring python R c c++ c# git and more",
+    "html css javascript typescript react node.js java spring python R c c++ c# git and more...",
     "$ focus",
     "software engineering and data science"
     ];
