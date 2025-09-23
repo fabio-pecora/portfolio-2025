@@ -70,14 +70,17 @@
   if (tw) {
     const lines = [
       "$ whoami",
-      "fabio@nyc",
-      "$ stack",
-      "html css js python java",
-      "$ focus",
-      "front end craft performance data stories",
-      "$ motto",
-      "simple things with great care"
+    "I'm Fabio!",
+    "$ passion",
+    "coding, food, basketball, and music",
+    "$ craft",
+    "building websites that are elegant, secure, and responsive",
+    "$ skills",
+    "html css javascript typescript react node.js java spring python R c c++ c# git and more",
+    "$ focus",
+    "software engineering and data science"
     ];
+    
     let i = 0, j = 0;
     function tick() {
       if (i < lines.length) {
